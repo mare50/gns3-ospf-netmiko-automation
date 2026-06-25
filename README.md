@@ -1,6 +1,6 @@
 # Automated Cisco Network State Auditor
 
-A production-ready Python automation tool utilizing the **Netmiko** library to programmatically connect to Cisco IOS-XE infrastructure via SSH, execute critical status audits, and serialize the output into structured text files.
+Python automation tool utilizing the **Netmiko** library to programmatically connect to Cisco IOS-XE infrastructure via SSH, execute critical status audits, and serialize the output into structured text files.
 
 ## Project Architecture
 * **Language:** Python 3.x
