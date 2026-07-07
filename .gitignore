@@ -1,4 +1,0 @@
-.env
-device_audit_*.txt
-!sample_output/
-!sample_output/sample_device_audit.txt
