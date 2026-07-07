@@ -1,4 +1,4 @@
-# My GNS3 Cisco OSPF Network Automation Project
+#GNS3 Cisco OSPF Network Automation Project
 
 This is a Python automation project I built to configure a 4-router full mesh topology inside GNS3. Instead of configuring each router manually, the script uses **Netmiko** to log in over SSH, configure loopback interfaces, and set up OSPF routing on all devices automatically.
 
