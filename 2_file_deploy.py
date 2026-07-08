@@ -3,9 +3,7 @@ import datetime
 from netmiko import ConnectHandler
 from dotenv import load_dotenv
 
-
 load_dotenv()
-
 
 routers = [    
     {'device_type': 'cisco_ios', 
