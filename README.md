@@ -17,8 +17,8 @@ GNS3_OSPF_Automation/
 ├── 1_dynamic_deploy.py       
 ├── 2_file_deploy.py          
 └── configs/                   
-    ├── 192.168.0.1.text      
-    └── 192.168.0.2.text       
+            ├── 192.168.0.1.text      
+            └── 192.168.0.2.text       
     
 ## 🚀 Cool Features of the Scripts
 
