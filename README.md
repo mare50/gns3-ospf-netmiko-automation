@@ -12,7 +12,7 @@ I designed the network to have two separate traffic paths to keep things clean:
 ## 📂 Project Directory Layout
 
 GNS3_OSPF_Automation/
-│
+
 ├── .env                      
 ├── 1_dynamic_deploy.py       
 ├── 2_file_deploy.py          
