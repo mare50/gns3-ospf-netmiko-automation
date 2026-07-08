@@ -11,28 +11,28 @@ routers = [
      'username': os.getenv('USERNAME'), 
      'password': os.getenv('PASSWORD'), 
      'secret': os.getenv('SECRET'), 
-     'port': int(os.getenv('PORT'))},
+     'port': int(os.getenv('PORT', 22))},
 
      {'device_type': 'cisco_ios', 
      'host': os.getenv('HOST_2'), 
      'username': os.getenv('USERNAME'), 
      'password': os.getenv('PASSWORD'), 
      'secret': os.getenv('SECRET'), 
-     'port': int(os.getenv('PORT'))},
+     'port': int(os.getenv('PORT', 22))},
 
      {'device_type': 'cisco_ios', 
      'host': os.getenv('HOST_3'), 
      'username': os.getenv('USERNAME'), 
      'password': os.getenv('PASSWORD'), 
      'secret': os.getenv('SECRET'), 
-     'port': int(os.getenv('PORT'))},
+     'port': int(os.getenv('PORT', 22))},
 
      {'device_type': 'cisco_ios', 
      'host': os.getenv('HOST_4'), 
      'username': os.getenv('USERNAME'), 
      'password': os.getenv('PASSWORD'), 
      'secret': os.getenv('SECRET'), 
-     'port': int(os.getenv('PORT'))}
+     'port': int(os.getenv('PORT', 22))}
 ]
 
 def generate_router_config(router):
