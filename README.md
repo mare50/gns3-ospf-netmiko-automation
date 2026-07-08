@@ -13,13 +13,13 @@ I designed the network to have two separate traffic paths to keep things clean:
 
 GNS3_OSPF_Automation/
 │
-├── .env                       # Private network credentials 
-├── 1_dynamic_deploy.py        # Script #1: Automated baseline deployment
-├── 2_file_deploy.py           # Script #2: Custom file configuration deployment
-└── configs/                   # Folder holding node-specific configurations
-    ├── 192.168.0.1.text       # Custom commands for R1
-    └── 192.168.0.2.text       # Custom commands for R2
-
+├── .env                      
+├── 1_dynamic_deploy.py       
+├── 2_file_deploy.py          
+└── configs/                   
+    ├── 192.168.0.1.text      
+    └── 192.168.0.2.text       
+    
 ## 🚀 Cool Features of the Scripts
 
 - **Strategy 1 (Dynamic Parsing):** `1_dynamic_deploy.py` automatically parses each router's management IP, extracts the last octet, and uses it to mathematically configure the Loopback IP and Router-ID on the fly.
