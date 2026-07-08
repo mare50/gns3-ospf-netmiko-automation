@@ -13,12 +13,15 @@ I designed the network to have two separate traffic paths to keep things clean:
 
 GNS3_OSPF_Automation/
 
-├── .env                      
-├── 1_dynamic_deploy.py       
-├── 2_file_deploy.py          
-└── configs/                   
-            ├── 192.168.0.1.text      
-            └── 192.168.0.2.text       
+```text
+GNS3_OSPF_Automation/
+├── .env                       # Local environment credentials (git-ignored)
+├── 1_dynamic_deploy.py        # Automation Strategy #1: Algorithmic deployment
+├── 2_file_deploy.py           # Automation Strategy #2: Custom file deployment
+└── configs/                   # Directory tracking target configurations
+    ├── 192.168.0.1.text       # Tailored CLI adjustments for Router 1
+    └── 192.168.0.2.text       # Tailored CLI adjustments for Router 2
+```     
     
 ## 🚀 Cool Features of the Scripts
 
