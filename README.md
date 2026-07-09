@@ -36,6 +36,7 @@ GNS3_OSPF_Automation/
 2. Install the necessary libraries if you don't have them:
    ```bash
    apt-get update
+   apt-get install -y python3-netmiko
    apt-get install -y python3-dotenv
    ```
 3. Create a `.env` file right next to the scripts using the template below:
