@@ -37,6 +37,7 @@ routers = [
 
 config_folder = "configs"
 
+
 def run_file_deployment():
 
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
